@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <ul>
+    <ul id="menu">
       <li>
         <a href="index.html">Home</a>
       </li>
@@ -21,39 +22,95 @@
         <a href="contato.html">Mais trabalhos do desenvolvedor</a>
       </li>
     </ul>
-    <h1>Serie Vikings!</h1>
+    <h1 class="center">Serie Vikings!</h1>
 
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo esse
-      blanditiis eveniet, cumque accusantium quia laboriosam ipsum, quos
-      asperiores atque architecto? Provident at fugiat soluta, laudantium
-      voluptatum upiditate dolore doloremque.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-      exercitationem impedit qui optio ullam eligendi obcaecati, tempora
-      similique error, minus at minima amet id, possimus consequuntur nesciunt
-      architecto quae quasi!
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-      delectus officiis libero excepturi sit quis corrupti. Dicta sit ipsa
-      harum, nisi officiis ut minima eligendi dignissimos deserunt aliquam.
-      Aliquam, soluta.
-    </p>
-    <img src="assets/ivar_2.jpg" alt="Foto do Ivar" width="600" height="1000" />
-    <h2>Então Ivar grita eufórico!</h2>
+    <div class="container p-30">
+      <div>
+        <img class="br-30 wh p-30" src="assets/ivar_2.jpg" alt="Foto do Ivar" />
+      </div>
 
-    <p>“Você não sabe quem eu sou? Você não pode me matar!”</p>
-    <p>“Eu sou Ivar, o Desossado!”, Ele gritou várias vezes.</p>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/Bbbsa1RKHXw?start=55"
-      title="YouTube video player"
-      frameborder="3"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+      <div class="p-30">
+        <p class="justify">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo esse
+          blanditiis eveniet, cumque accusantium quia laboriosam ipsum, quos
+          asperiores atque architecto? Provident at fugiat soluta, laudantium
+          voluptatum upiditate dolore doloremque.
+        </p>
+        <p class="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+          exercitationem impedit qui optio ullam eligendi obcaecati, tempora
+          similique error, minus at minima amet id, possimus consequuntur
+          nesciunt architecto quae quasi!
+        </p>
+        <p class="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          delectus officiis libero excepturi sit quis corrupti. Dicta sit ipsa
+          harum, nisi officiis ut minima eligendi dignissimos deserunt aliquam.
+          Aliquam, soluta.
+        </p>
+      </div>
+    </div>
+
+    <h2 class="center">Então Ivar grita eufórico!</h2>
+
+    <div class="container p-30">
+      <div class="p-30">
+        <p class="justify">“Você não sabe quem eu sou? Você não pode me matar!”</p>
+        <p class="justify">“Eu sou Ivar, o Desossado!”, Ele gritou várias vezes.</p>
+      </div>
+
+      <div class="p-30">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Bbbsa1RKHXw?start=55"
+          title="YouTube video player"
+          frameborder="3"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <hr />
+    <footer>
+      <div class="container mb-50">
+        <a href="https://www.twitch.tv/snowapalache" target="_blank">
+          <img
+            class="tm_social p-30"
+            src="assets/css/iconeTwitch.png"
+            alt="Logo da Twitch"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/gustavo.s.goncalves.1"
+          target="_blank"
+        >
+          <img
+            class="tm_social p-30"
+            src="assets/css/facebook.png"
+            alt="Logo do Facebook"
+          />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img
+            class="tm_social p-30"
+            src="assets/css/instagram.png"
+            alt="Logo do Instagram"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gustavo-scabuzzi-gon%C3%A7alves-285898212/"
+          target="_blank"
+        >
+          <img
+            class="tm_social p-30"
+            src="assets/css/linkedin.png"
+            alt="Logo do Linkedin"
+          />
+        </a>
+      </div>
+      <p class="center">Todos os direitos reservados: GScabuzzi &copy;</p>
+    </footer>
   </body>
 </html>
